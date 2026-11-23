@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Loratadine 10 mg box and blister">
+  <rect width="240" height="180" fill="#f5f7fc"/>
+  <ellipse cx="120" cy="161" rx="88" ry="9" fill="#e1e6f1"/>
+  <g transform="translate(38 30)">
+    <rect x="0" y="8" width="104" height="128" rx="9" fill="#fff" stroke="#d7ddea"/>
+    <path d="M0 17a9 9 0 0 1 9-9h86a9 9 0 0 1 9 9v30H0z" fill="#12a877"/>
+    <text x="52" y="33" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" fill="#fff">LORATADINE</text>
+    <text x="52" y="69" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#1a2238">10</text>
+    <text x="52" y="83" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#6b7590">mg tablets</text>
+    <rect x="20" y="95" width="64" height="16" rx="3" fill="#dcf5ec"/>
+    <text x="52" y="106" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="6" fill="#6b7590">10 TABLETS</text>
+    <text x="52" y="124" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="6" fill="#9aa3ba">ALLERGY RELIEF</text>
+  </g>
+  <g transform="translate(150 84) rotate(-9)">
+    <rect width="66" height="38" rx="6" fill="#eef1f8" stroke="#cfd6e6"/>
+    <ellipse cx="16" cy="12" rx="8" ry="6" fill="#fff" stroke="#c9d0e0"/>
+    <ellipse cx="40" cy="12" rx="8" ry="6" fill="#fff" stroke="#c9d0e0"/>
+    <ellipse cx="16" cy="26" rx="8" ry="6" fill="#fff" stroke="#c9d0e0"/>
+    <ellipse cx="40" cy="26" rx="8" ry="6" fill="#fff" stroke="#c9d0e0"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Vitamin C 1000 mg bottle">
+  <rect width="240" height="180" fill="#f5f7fc"/>
+  <ellipse cx="120" cy="162" rx="70" ry="8" fill="#e1e6f1"/>
+  <g transform="translate(82 28)">
+    <rect x="20" y="-4" width="42" height="16" rx="4" fill="#e0900f"/>
+    <path d="M18 12h46l7 22v78a12 12 0 0 1-12 12H23a12 12 0 0 1-12-12V34z" fill="#f7a928" stroke="#dd8f0c"/>
+    <rect x="11" y="46" width="60" height="52" rx="4" fill="#fff"/>
+    <text x="41" y="62" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="700" fill="#b26a00">VITAMIN</text>
+    <text x="41" y="82" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#1a2238">C</text>
+    <text x="41" y="92" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="5.5" fill="#6b7590">1000 mg · 60 tablets</text>
+    <circle cx="41" cy="112" r="6" fill="#f7a928" stroke="#fff" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(160 112)">
+    <circle cx="10" cy="10" r="9" fill="#fff" stroke="#d7ddea"/>
+    <circle cx="30" cy="14" r="9" fill="#fff" stroke="#d7ddea"/>
+    <circle cx="16" cy="30" r="9" fill="#fff" stroke="#d7ddea"/>
+  </g>
+</svg>

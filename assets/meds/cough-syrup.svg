@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Cough syrup 100 ml bottle">
+  <rect width="240" height="180" fill="#f5f7fc"/>
+  <ellipse cx="120" cy="163" rx="66" ry="8" fill="#e1e6f1"/>
+  <g transform="translate(88 26)">
+    <rect x="18" y="-2" width="34" height="14" rx="3" fill="#7a4a1e"/>
+    <path d="M16 12h38l6 20v86a10 10 0 0 1-10 10H20a10 10 0 0 1-10-10V32z" fill="#b5651d" stroke="#9a5417"/>
+    <rect x="9" y="46" width="52" height="52" rx="4" fill="#fff"/>
+    <text x="35" y="60" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="6.5" font-weight="700" fill="#7a4a1e">COUGH</text>
+    <text x="35" y="69" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="6.5" font-weight="700" fill="#7a4a1e">SYRUP</text>
+    <text x="35" y="83" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#1a2238">100 ml</text>
+    <text x="35" y="93" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="5" fill="#6b7590">FOR THE FAMILY</text>
+  </g>
+  <g transform="translate(152 108)">
+    <path d="M0 6h34l-4 30H4z" fill="#fff" stroke="#cfd6e6"/>
+    <path d="M4 22h26l-2 12H6z" fill="#f5a524" opacity=".55"/>
+  </g>
+</svg>
