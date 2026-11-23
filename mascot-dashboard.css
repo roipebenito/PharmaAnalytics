@@ -1,0 +1,74 @@
+/* ============================================================
+   DASHBOARD MASCOT — fixed-position peekaboo on the right edge
+   ============================================================
+   Reuses the login mascot's story animation (.mascot.tucked, the
+   --slide / --dur / --ease variables, data-pose / data-next and the
+   mascotBlink keyframe), all defined in styles.css. Only the
+   position and the slide direction are different here: she is
+   fixed to the right edge of the viewport instead of the panel seam.
+   ============================================================ */
+
+/* Fixed mascot — peeks from the right edge of the viewport */
+.mascot.mascot-fixed {
+    position: fixed;
+    z-index: 40;
+    pointer-events: none;
+    /* Same sizing formula as login: responsive width */
+    --mw: clamp(140px, min(16vw, 36vh), 280px);
+    width: calc(var(--mw) * 2.5806);
+    aspect-ratio: 16/9;
+    /* Anchored to the right edge of the screen */
+    right: 0;
+    bottom: 20px;
+    left: auto;
+    /* Wall edge is 58.96% of the image; pushing the right 41.04% off-screen
+       lines that seam up with the viewport edge. */
+    transform: translateX(41.04%);
+    filter: drop-shadow(0 14px 22px rgba(20, 4, 40, .35));
+    animation: mascotBlink 5.3s ease-in-out infinite;
+    clip-path: inset(-60% -60% -60% -120%);
+    transition: clip-path .16s ease-out;
+}
+
+/* Tucked (hiding behind the right edge): keep only the right 41.04% */
+.mascot.mascot-fixed.tucked {
+    clip-path: inset(-60% -60% -60% 58.96%);
+    transition: clip-path .05s linear;
+}
+
+/* Mirror the slide. mascot.js slides her to the right to duck behind the
+   left-hand wall on login; on the right edge the same positive --slide must
+   move her left. Both picture layers (pose + cross-fade) use this rule. */
+.mascot.mascot-fixed::before,
+.mascot.mascot-fixed::after {
+    transform: translateX(calc(var(--slide) * -1));
+}
+
+/* Hit area for the dashboard mascot — mirrored position */
+.mascot.mascot-fixed .mascot-hit {
+    position: absolute;
+    /* Character area: mirrored from login (right side instead of left) */
+    right: 26.3%;
+    top: 11.1%;
+    width: 38.6%;
+    height: 73.1%;
+    left: auto;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+/* Poses (data-pose / data-next) inherit from styles.css. */
+
+/* Hide the dashboard mascot on small screens where it would overlap content */
+@media (max-width: 960px) {
+    .mascot.mascot-fixed {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mascot.mascot-fixed,
+    .mascot.mascot-fixed:hover {
+        animation: none;
+    }
+}
